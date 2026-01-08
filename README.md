@@ -3,8 +3,10 @@ Práctica de la unidad 4 Dashboard &amp; Análisis de Datos Google Sheets del cu
 El objetivo de este proyecto es realizar un análisis exploratorio de datos y representarlo mediante un dashboard interactivo, utilizando Excel / Google Sheets.
 
 ## 1.Estructura del proyecto
-
-
+Enlace Google Sheets - Enlace al archivo con el ejercico
+Proyecto unidad 4.xlsx - Copia del ejercicio en .xlsx
+README.md
+StudentPerformanceFactors BRUTO.csv - Datos en bruto, tal cual descargados
 
 ## 2.Origen de los datos
 El conjunto de datos utilizado en este proyecto corresponde a un dataset sobre factores que influyen en el rendimiento académico de los estudiantes.
@@ -35,12 +37,19 @@ Consta de 6.607 filas y 20 columnas
   Exam_Score
     Dependiendo del valor bajo pongo Low, Medium o High
 
-   ## 4. Análisis de datos
-   He dividido las columnas en caracteristicas personales, familiares y académicas. Me he centrado en la nota final, no en la de los parciales.
+## 4. Análisis de datos
+   He dividido las columnas en caracteristicas personales, familiares y académicas. Me he centrado en la nota final, no en      la de los parciales.
    Para cada una de las características, he creado una pestaña donde hay dos tablas dinámicas por característica:
       1. Nota media y número de alumnos por cada característica
       2. Dispersión de las notas por característica.
   
    Me quedo con las carácterísticas en las que haya más de 1,5 puntos entre el caso más desfavorable y el más favorable. Elijo solo 1,5 porque las notas son bastante homogeneas.
-   Con esto hago un cuadro de mando para confirmar las suposiciones
-   
+   Con esto hago un cuadro de mando para contrastar losp atrones observados en el análisis y un Dashboard
+
+ ## 4. Dashboard  
+   El dashboard presenta una visión general del rendimiento académico de los estudiantes, mostrando la distribución de las notas y nota media global. Incluye el análisis de los principales factores que influyen en los resultados. A través de gráficos comparativos, se observa cómo estas variables afectan a la nota media y a la distribución del rendimiento. 
+
+  ## 5. Conclusiones
+  La nota media es estable y con poca dispersión
+  Las diferencias no son extremas pero hay factores como Acceso a recursos, Implicación parental, horas estudiadas y asistencia a clase (sobretodo las dos últimas) que separan mejor escenarios favorables vs desfavorables.
+  El efecto se ve en el desplazamiento de la distribución, reducción de notas bajas y mayor concentración en notas medias-altas que en grandes saltos de media.
